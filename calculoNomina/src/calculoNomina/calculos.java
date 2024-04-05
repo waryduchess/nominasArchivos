@@ -2,6 +2,7 @@ package calculoNomina;
 
 import java.util.ArrayList;
 
+
 public class calculos extends empleado {
  public static void igualarDiasEmp(ArrayList<empleado> listaEmpleados, int numeroNomina,int diasTab ) {
 	 for(empleado empleado: listaEmpleados) {
@@ -55,4 +56,9 @@ public class calculos extends empleado {
 		 
 	 }
  }
+ public static void mostrarInformacionEmpleados(ArrayList<empleado> listaEmpleados) {
+	    for (empleado emp : listaEmpleados) {
+	        System.out.println(emp);
+	    }
+	}
 }
